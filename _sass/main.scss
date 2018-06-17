@@ -26,7 +26,7 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma
 */
 
-@import "../node_modules/bulma/bulma";
+@import "./bulma";
 
 .hero-logo {
     height: 100px;
@@ -38,7 +38,7 @@ $primary-invert: $pink-invert;
 }
 
 .hero.is-primary {
-    background-image: url("/images/Hero-Image");
+    background-image: url("../images/Hero-Image");
     height: 570px;
     background-position: center;
     background-repeat: no-repeat;
