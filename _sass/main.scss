@@ -28,6 +28,10 @@ $primary-invert: $pink-invert;
 
 @import "./bulma";
 
+html {
+    background-color: #20274b !important;
+}
+
 .hero-logo {
     height: 100px;
     margin-bottom: 80px;
@@ -78,6 +82,10 @@ $primary-invert: $pink-invert;
 
 .hero-buttons a.is-hovered {
     background-color: #186cbc;
+}
+
+.main-section {
+    background-color: #fff;
 }
 
 .main-section h2 {

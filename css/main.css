@@ -6524,6 +6524,9 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
+html {
+  background-color: #20274b !important; }
+
 .hero-logo {
   height: 100px;
   margin-bottom: 80px; }
@@ -6566,6 +6569,9 @@ label.panel-block {
 
 .hero-buttons a.is-hovered {
   background-color: #186cbc; }
+
+.main-section {
+  background-color: #fff; }
 
 .main-section h2 {
   color: #333;
