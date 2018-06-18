@@ -28,6 +28,10 @@ $primary-invert: $pink-invert;
 
 @import "./bulma";
 
+.section {
+    padding: 1rem 1.5rem;
+}
+
 html {
     background-color: #20274b !important;
 }
@@ -120,7 +124,7 @@ html {
 }
 
 .first-example-text-column {
-    margin-bottom: 140px !important;
+    margin-bottom: 100px !important;
 }
 
 .second-example-image img {
@@ -132,7 +136,7 @@ html {
 }
 
 .features-column {
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .feature-column {
