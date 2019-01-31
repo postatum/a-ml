@@ -363,6 +363,24 @@ header{
   h1{
     font-family: 'Roboto-Regular';background-color: $ghost-white;box-shadow: 0 -1px 0 0 #DBE8FD;  font-size: $font-face-small;  font-weight: 500; line-height: 16px;margin:0;padding: 20px;width: 100%;
   }
+  .editor-1{
+    h1{
+      padding: 15px;
+      background-color:#eef2f9; 
+    }
+  }
+  .editor-2{
+    h1{
+      padding: 15px;
+      background-color: #f6f7f9;
+    }
+    .monaco-editor-background{
+      background-color: $white;
+    }
+    .monaco-editor .margin{
+      background-color: $white;
+    }
+  }
   .output-block{
     h4{
       color: $black;
