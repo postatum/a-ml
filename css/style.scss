@@ -195,6 +195,9 @@ header{
         height: 22px; 
       }
     } 
+    .navbar-toggler:focus{
+      outline: none;
+    }
     .navbar-nav{
       float: right;
       width: 100%;
