@@ -176,7 +176,7 @@ header{
         position: absolute;top: 0;z-index:999;min-height:100vh;background:$white;
       }
       .nav-logo{
-        padding-left: 15px; float:left;margin-top:10px;margin-right: 20px;
+        padding-left: 15px; float:left;margin-top:30px;margin-right: 20px;
       }
     }
     @media(max-width: 575px){
@@ -303,8 +303,8 @@ header{
       i.fa-github{
         font-size: 26px;line-height: 45px;padding: 0 15px;color: $slate-gray;
         @media(max-width: 767px){
-          margin-bottom: 30px;
-          margin-top: 5px;
+          margin-bottom: 35px;
+          margin-top: 25px;
         }
       }
       li:last-child{
@@ -348,7 +348,8 @@ header{
         max-width:100%;
 
         .navbar-brand{
-          padding-left: 15px;
+          margin-top: 5px;
+          margin-left: 30px;
         }
       }
    }
@@ -371,6 +372,7 @@ header{
     }
     h2{
       color: $royal-blue;
+      font-family: $font-face-medium;
       @media(max-width: 575px){
         font-size: 18px;
       }
@@ -382,13 +384,14 @@ header{
   position: relative;
   
   h2{
-    font-family: 'Roboto-Regular';background-color: $ghost-white;box-shadow: 0 -1px 0 0 #DBE8FD;  font-size: $font-face-small;  font-weight: 500; line-height: 16px;margin:0;padding: 20px;width: 100%;
+    font-family:$font-face-medium;background-color: $ghost-white;box-shadow: 0 -1px 0 0 #DBE8FD;  font-size: $font-face-small;  font-weight: 500; line-height: 16px;margin:0;padding: 20px;width: 100%;
   }
   .editor-1{
     h3{
       padding: 15px;
       background-color:#eef2f9;
-      font-size: $font-face-small; 
+      font-size: $font-face-small;
+      font-family: $font-face-medium; 
     }
   }
   .editor-2{
@@ -396,6 +399,7 @@ header{
       padding: 15px;
       background-color: #f6f7f9;
       font-size: $font-face-small;
+      font-family: $font-face-medium;
     }
     .monaco-editor-background{
       background-color: $white;
@@ -444,6 +448,11 @@ header{
           }
         }
       }
+      .view-overlays{
+        .current-line{
+          background-color:#DBE8FD; 
+        }
+      }
     }  
     .line-numbers{
       color: #9EAAB7;
@@ -465,13 +474,16 @@ header{
   h3{
     color: $royal-blue;
     margin-top: 20px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     font-family: $font-face-medium;
   }
   p{
     @media(max-width: 575px){
       margin-bottom: 45px;
     }
+  }
+  img{
+    border-radius: 12px;
   }
 }
 
@@ -521,6 +533,12 @@ header{
     @media(max-width: 575px){
       padding-left: 15px;
       margin-top: 50px;
+    }
+    p a{
+      text-decoration: underline;
+    }
+    p a:hover{
+      text-decoration: underline!important;
     }
   }
   .row-bg-color{
